@@ -1,11 +1,11 @@
-##目的
+## 目的
 Codeigniterの導入テスト
 
 実施者（私）のスキル
 -業務でLaravelを使用している。
 -業務でDockerを使用、自機にも構築経験あり。
 
-##Dockerの設定内容
+## Dockerの設定内容
 dockerの情報は散見しているので、githubで適当なリポジトリ探して来て、
 pullした上で、設定ファイルの意味を舐めて行った方が早いと思う。
 以下に、設定を晒す。
@@ -99,7 +99,7 @@ services:
     tty: true
 ```
 
-##ビルド・実行
+## ビルド・実行
 
 ```bash:ビルド・実行方法
 docker-compose build
@@ -109,7 +109,7 @@ docker-compose up -d
 docker exec -ti nweb /bin/bash
 ```
 
-##動作確認
+## 動作確認
 
 ```bash:ブラウザで
 localhost:8080
@@ -161,7 +161,7 @@ $config['composer_autoload'] = realpath(APPPATH . "./vendor/autoload.php");
 下記が表示されれば導入成功！
 ![localhost_8080_.png](https://qiita-image-store.s3.amazonaws.com/0/176756/5b96c5fc-b215-746e-7ade-33f6e84a47ae.png)
 
-##あとがき
+## あとがき
 ここまでご覧いただき、ありがとうございます。
 実際に作業した方はお疲れさまでした！
 

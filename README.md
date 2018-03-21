@@ -1,6 +1,10 @@
 ## 目的
 Codeigniterの導入テスト
 
+表示乱れがあるので、下記Qiitaを見てもらった方がいいかも
+
+[docker上にcentos6,nginx,Codeigniterの環境を構築してみる](https://qiita.com/bambooRake/items/f1d68dd2873bcb720c02)
+
 実施者（私）のスキル
 -業務でLaravelを使用している。
 -業務でDockerを使用、自機にも構築経験あり。
